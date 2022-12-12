@@ -1,0 +1,117 @@
+@font-face {
+    font-family: side;
+    src: url(/fonts/Pacifico-Regular.ttf);
+   
+}
+@font-face {
+    font-family: Lobster;
+    src: url(/fonts/Lobster-Regular.ttf);
+}
+@font-face {
+    font-family: YanoneKaff;
+    src: url(/fonts/YanoneKaffeesatz.ttf);
+}
+@font-face {
+    font-family: Caveat;
+    src: url(/fonts/Caveat-VariableFont_wght.ttf);
+}
+
+:root{
+    --color: rgb(243, 199, 103);
+
+}
+
+html, body{
+    overflow-x: hidden;
+    width: 100%;
+    background-color: var(--color);
+
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    float: left;
+    padding: 0 10px 10px 0;
+
+}
+.header{
+    margin: 10px 10px 10px 10px;
+
+}
+
+.image{
+    width: 90px;
+    height: 70px;
+    padding: 0 20px 20px 10px;
+   
+}
+
+.container{
+    display: block;
+    margin: 10px 10px 10px 10px;
+}
+
+h1{
+    font-family: Verdana, sans-serif;
+    font-size: 24px;
+    font-style: italic;
+}
+
+.main{
+    width: 1250px;
+    background-color:rgb(245, 236, 161);
+    padding: 10px 10px 10px 40px;
+    text-align:  justify;
+    font-family: Lobster;
+    font-size: 18px;
+}
+.main_two{
+    width: 1220px;
+    background-color:rgb(248, 181, 104);
+    padding: 20px 20px 20px 20px;
+    text-align:  justify;
+    font-family: YanoneKaff;
+    font-size: 22px;
+}
+.main_three{
+    width: 1220px;
+    background-color:rgb(252, 123, 72);
+    padding: 20px 20px 20px 20px;
+    text-align:  justify;
+    font-family: Caveat;
+    font-size: 32px;
+}
+
+.sidebar{
+    width: 500px;
+    float: right;
+    background-color: wheat;
+    padding: 10px 10px 10px 20px;
+    font-family: side;
+}
+
+ul{
+    display: flex;
+    top: 0;
+    left: 100px;
+    font-size: 20px;
+    flex-direction: row;
+    list-style-type: none;
+    font-style: italic;
+    padding: 0 18px;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    padding: 0 20px 20px 0;
+}
+
+.footer {
+    margin: 10px 10px 10px 10px;
+
+}
+
